@@ -1,0 +1,18 @@
+.RightSideBarGoogleAdsWrapper {
+    width: 100%;
+    max-height: 400px;         /* Limit max height */
+    flex-grow: 1;              /* Allow it to grow into remaining space */
+    flex-shrink: 1;            /* Allow it to shrink if space is small */
+    background-color: none;
+    border-radius: 14px;
+    border: 1px solid #DADADA;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;         /* Optional: prevent content overflow */
+}
+
+

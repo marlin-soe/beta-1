@@ -1,0 +1,11 @@
+.SideBarLinkWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 100%;
+    justify-content: center;      /* This centers vertically (since it's column) */
+    align-items: center;          /* This centers horizontally */
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
