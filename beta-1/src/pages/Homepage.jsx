@@ -1,6 +1,7 @@
 import '../App.css'
 import TrueRightSideBar from '../right-side-bar/true-right-side-bar'
 import TrueSideBar from '../side-bar/true-side-bar'
+import PostForm from '../universal-access/post-form'
 import SubjectButton from '../universal-access/subject-button'
 import UniversalSearchButton from '../universal-access/universal-search-button'
 
@@ -12,9 +13,8 @@ function Homepage() {
         <TrueSideBar/>
         <div className="mainContent">
           <UniversalSearchButton/>
-          <p>hi</p>
-          <p>hi</p>
-          <p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p><p>hi</p>
+          <PostForm/>
+          
 
         </div>
         <TrueRightSideBar/>

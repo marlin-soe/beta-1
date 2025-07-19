@@ -1,0 +1,91 @@
+.postFormMainWrapper {
+    margin: auto;
+    background-color: none;
+    width: 97%;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    
+}
+.postFormInnerWrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Optional: space between image and form */
+}
+
+.postFormInnerImageWrapper {
+    padding: 20px;
+    
+    background-color: none;
+    
+}
+
+.postFormInnerImageWrapper img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.postFormInnerFormWrapper {
+    background-color: none;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.postFormInnerFormWrapper input {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+
+    height: 43px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 14px;
+    box-sizing: border-box; /* This is the key fix */
+}
+
+#postFormTitle {
+    width: 98%;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 40px;
+
+    height: 43px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 14px;
+    box-sizing: border-box; /* This is the key fix */
+}
+
+#postFormContent {
+    width: 98%;
+    margin: 0;
+    margin-top: 20px;
+    margin-right: 40px;
+
+    height: 200px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 14px;
+    padding-left: 14px;
+    box-sizing: border-box; /* This is the key fix */
+}
+
+
+
+.postFormInnerWrapper form {
+    width: 95%;
+}
+

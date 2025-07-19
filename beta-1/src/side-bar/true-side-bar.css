@@ -6,7 +6,7 @@
     max-width: 345px;
     position: fixed;
     border-right: 1px solid #DADADA;
-    z-index: 2;
+    z-index: 10000;
 
 }
 
