@@ -1,0 +1,49 @@
+.SignUpPageAdditionalInfoWrapper {
+    width: 35%;
+    height: 100%;
+    background-color: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpPageAdditionalInfoIndividualWrapper:first-child {
+    margin-top: 0;
+}
+.SignUpPageAdditionalInfoIndividualWrapper {
+    width: 75%;
+    scale: 0.95;
+    background-color: none;
+    margin-top: 30px;
+}
+
+.SignUpPageAdditionalInfoIndividualWrapper p:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 35px;
+    color: #333333;
+}
+.SignUpPageAdditionalInfoIndividualWrapper p:last-child{
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 17px;
+    line-height: 1.25;
+    color: #333333;
+}
+
+
+.SignUpPageAdditionalCopyrightWrapper { 
+    width: 75%;
+    margin-top: 150px;
+}
+.SignUpPageAdditionalCopyrightWrapper p {
+    font-size: 14px;
+    color: #333333;
+}
+.SignUpPageAdditionalCopyrightWrapper a {
+    color: #333333;
+}

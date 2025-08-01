@@ -1,0 +1,33 @@
+.RightSideBarFriendIndividualButton {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: none;
+
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    padding-left: 30px; 
+
+    background-color: transparent;
+    color: #333333;
+}
+
+.RightSideBarFriendIndividualButton:hover {
+    background-color: #F2F2F2;
+}
+
+.RightSideBarFriendIndividualButton img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #565454;
+    margin-right: 30px;
+}

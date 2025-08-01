@@ -1,0 +1,66 @@
+body {
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* KEY FIX FOR MAIN CONTENT */
+.mainContent {
+    position: relative;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+    background-color: #FFFFFF;
+    
+    margin-left: 345px;
+    margin-right: 375px; 
+    
+    min-width: 300px;
+
+  
+}
+
+.unsupportedMessage {
+  display: none;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.unsupportedMessage p {
+  color: black;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 200;
+}
+
+.unsupportedMessage p:last-child {
+  color: #676767;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: thin;
+}
+
+/* Responsive rule: hide app and show unsupported message */
+@media (max-width: 1197px), (max-height: 909px) {
+  .mainWrapper {
+    display: none;
+  }
+  
+
+
+  .unsupportedMessage {
+    display: block;
+    margin: auto;
+  }
+  body {
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+}

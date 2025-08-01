@@ -1,0 +1,47 @@
+.TrueSideBarWrapper {
+    background-color: #F9F9F9;
+    height: 100vh;
+    width: 20%;
+    min-width: 345px;
+    max-width: 345px;
+    position: fixed;
+    border-right: 1px solid #DADADA;
+    z-index: 10000;
+
+}
+
+.TrueSideBarWebsiteNameWrapper {
+    display: flex;                /* Flexbox makes it easy */
+    align-items: center;          /* Vertically center */
+    justify-content: flex-start;
+    box-sizing: border-box; 
+    font-size: 15px;
+    padding-left: 20px;
+}
+.TrueSideBarWebsiteNameWrapper p{
+    font-size: 23px;
+    font-weight: bolder;
+    color: #4B4B4B;
+}
+
+.SideBarUniversalButton {
+    background-color: #646464;
+    width: 90%;
+    height: 41px;
+    margin-top: 20px;
+
+    border-radius: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #979797;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 550;
+
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #DADADA;
+}

@@ -1,0 +1,27 @@
+.mainSubjectsWrapper {
+  width: 97%;
+  background-color: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: auto;
+}
+
+.SubjectsTwpIndividualWrapper {
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 30px;
+  flex-wrap: wrap; /* Optional, makes it more flexible */
+}
+
+.mainSubjectsWrapper {
+    color: #333333;
+    font-weight: 600;
+    font-size: 30px;
+}
+

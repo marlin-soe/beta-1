@@ -1,0 +1,79 @@
+.SideBarSubProfileWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 100%;
+    justify-content: center;      /* This centers vertically (since it's column) */
+    align-items: center;          /* This centers horizontally */
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.SideBarSubProfileWrapper img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #565454;
+}
+
+
+.SideBarSubProfileInnerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+
+}
+
+
+
+.SideBarSubProfileInnerIndividualWrapper {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between; /* This will push the first <p> to left, second <p> to right */
+    width: 100%; 
+    margin-bottom: 18px;
+}
+.SideBarSubProfileInnerIndividualWrapper:last-child {
+    margin-bottom: 30px; 
+    
+}
+.SideBarSubProfileInnerIndividualWrapper p:first-child {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    color: #333333;
+
+    
+}
+.SideBarSubProfileInnerIndividualWrapper p:last-child{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #333333;
+
+
+}
+
+
+
+
+.SideBarSubProfileUsernameWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 100%;
+    justify-content: center;      /* This centers vertically (since it's column) */
+    align-items: center;  
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+.SideBarSubProfileUsernameWrapper p {
+  margin: 0;        /* Remove default margins */
+  margin-bottom: 4px; /* Add small margin only between paragraphs */
+  font-size: 16px;
+}
+.SideBarSubProfileUsernameWrapper p:last-child {
+  margin-bottom: 0; /* No margin after the last paragraph */
+  font-size: 13px;
+}

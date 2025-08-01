@@ -1,0 +1,38 @@
+.RightSideBarQuoteWrapper {
+    width: 100%;
+    background-color: #FAF7FF;
+    border-radius: 14px;
+    border: 1px solid #DADADA;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #DADADA;
+    width: 100%;
+    margin: 0;
+}
+
+.RightSideBarQuoteWrapper p:first-child {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.RightSideBarQuoteWrapper p:last-child {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #333333;
+
+}

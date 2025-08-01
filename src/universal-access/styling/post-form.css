@@ -1,0 +1,239 @@
+.postFormMainWrapper {
+    margin: auto;
+    background-color: none;
+    width: 95%;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    
+}
+.postFormInnerWrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Optional: space between image and form */
+}
+
+.postFormInnerImageWrapper {
+    padding: 20px;
+    
+    background-color: none;
+    
+}
+
+
+.postFormInnerImageWrapper img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0;
+}
+
+.postFormInnerFormWrapper {
+    background-color: none;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.postFormInnerFormWrapper input {
+    width: 98%;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 40px;
+
+    height: 46px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 16px;
+    padding-left: 14px;
+    box-sizing: border-box; /* This is the key fix */
+}
+.postFormInnerFormWrapper input::placeholder {
+    color: #333333;
+}
+
+#postFormTitle {
+    width: 98%;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 40px;
+
+    height: 43px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: white;
+    font-size: 16px;
+    padding-left: 14px;
+    box-sizing: border-box; /* This is the key fix */
+}
+
+/* post-form.css */
+#postFormContent {
+    width: 100%;
+    height: 160px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: none;
+    font-size: 16px;
+    padding: 14px;
+    resize: none;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: inherit;
+}
+
+#postFormContent::placeholder {
+    vertical-align: top;
+    text-align: left;
+    color: #333333;
+}
+
+.postFormTextareaWrapper {
+    position: relative;
+    width: 98%;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.charCount {
+    position: absolute;
+    bottom: 10px;
+    right: 14px;
+    font-size: 16px;
+    color: #888;
+}
+
+.tagInputWrapper {
+    display: flex;
+    align-items: center;
+    
+    padding: 0 14px;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 98%;
+    height: 46px;
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    background-color: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    gap: 10px;
+    background-color: none;
+}
+
+.tagPrefix {
+    color: #333333;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tagInputWrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 98%; /* changed from 98% */
+    max-width: 98%; /* 💥 prevent growing */
+    border: 1px solid #DADADA;
+    border-radius: 14px;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow-x: auto;;
+    flex-wrap: nowrap;
+    position: relative;
+    background-color: none;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+.tagInputWrapper::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+
+.tagContainer {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 6px;
+
+    white-space: nowrap;
+    height: 100%;
+    min-width: 0; /* 💥 Important: prevent it from stretching its parent */
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.tagContainer::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
+
+
+
+
+.tagBox {
+    display: flex;
+    align-items: center;
+    background-color: #e3e3e3;
+    padding: 6px 10px;
+    border-radius: 12px;
+    margin-right: 6px;
+    font-size: 16px;
+    white-space: nowrap;
+    height: 30px; /* NEW: Give a consistent height */
+    box-sizing: border-box;
+    margin-top: 7px;
+}
+
+.tagBox button {
+    background: none;
+    border: none;
+    font-size: 16px;  /* Slightly larger for visual balance */
+    line-height: 1;
+    margin-left: 6px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.tagInputFieldWrapper {
+    flex: 1 0 auto; /* let it size naturally */
+
+}
+
+
+.tagInputFieldWrapper input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    width: 100%;
+    
+
+}
+
+
+
+
+
+.postFormInnerWrapper form {
+    width: 95%;
+    background-color: none;
+    max-width: 800px;
+}
+
+
+
